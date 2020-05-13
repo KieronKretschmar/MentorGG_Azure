@@ -6,12 +6,13 @@
 ## Requirements
 - Windows10
 - Steam
-- [SteamworksConnection](https://gitlab.com/mentorgg/csgo/SteamworksConnection)
-- [SteamworksService](https://gitlab.com/mentorgg/csgo/steamworksservice)
+- [SteamworksConnection](https://gitlab.com/mentorgg/csgo/SteamworksConnection) - Locally referred to `steamworksservice`.
+- [SteamworksService](https://gitlab.com/mentorgg/csgo/steamworksservice) - Locally referred to `rabbitlistener`
 
 ## Maintenance
 
 ### NSSM
+
 
 ![NSSM Picture](images/nssm.png "NSSM")
 
@@ -34,9 +35,6 @@ Host: 23.97.155.28
 User: swc
 Password: 6ziTn9JhQ8TeYPTj
 ```
-
-
-
 
 ### Upgrading an application
 
